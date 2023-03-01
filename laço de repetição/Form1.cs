@@ -29,6 +29,11 @@ namespace laço_de_repetição
             //listarFor.Items.Add(8);
             //listarFor.Items.Add(9);
             //listarFor.Items.Add(10);
+
+            for (int valor = 0; valor <= 10; valor += 2)
+            {
+                listarFor.Items.Add(valor);
+            }
         }
     }
 }
